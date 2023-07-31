@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' ?>  <!--这是xml的注释-->
+<!--  版本号         文件编码-->
+
+<root><!--xml必须有根节点，只能自定义标签-->
+<name>kanade</name>
+<Name>Tachibana kanade</Name><!--大小写敏感-->
+
+<!--标签不可以交叉-->
+
+<test>证明1&lt;2</test>
+<msg><![CDATA[<<<>>>****+++''']]></msg>
+<!--在xml中需要使用实体转义的字符有：< > & ' " -->
+<!--属性-->
+<angel>
+    <name>kanade</name>
+    <age>17</age>
+</angel>
+<angel>
+    <name age="17">kanade</name>
+</angel>
+</root>
